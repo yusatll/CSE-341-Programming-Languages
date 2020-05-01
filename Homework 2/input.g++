@@ -1,0 +1,7 @@
+;; command.g++
+(deffun sumup (x) 
+	(if (equal x 0)
+		" 15
+		(+ x (sumup (- x 89.4)))
+	)
+)
